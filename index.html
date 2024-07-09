@@ -12,7 +12,7 @@
 <body>
 	<header class="main_heading">
 		<div class="logo">
-			<img src="favicon.png" alt="Logo">
+			<img src="logo.png" alt="Logo">
 		</div>
 		
 		<div class="Title">
@@ -23,15 +23,15 @@
 	
 	<div class="formholder">
 		<form >
-			<p class="loginTitle"><h1>Login to your study Account</h1></p>
+			<p class="loginTitle"><h1>Login to your study <span>Account</span></h1></p>
 			<p class="forminput in" >
-				<i class="fa fa-envelope" aria-hidden="true"></i>
+				<i class="fa fa-envelope maintarget" aria-hidden="true"></i>
 				<input type="text" placeholder="Email">
 			</p>
 			<p class="forminput in">
-				<i class="fa fa-lock" aria-hidden="true"></i>
+				<i class="fa fa-lock maintarget" aria-hidden="true"></i>
 				<input type="password" placeholder="Password">
-				<i class="fa fa-eye showPassword" aria-hidden="true"></i>
+				<i id="eye" class="fa fa-eye showPassword maintarget" aria-hidden="true"></i>
 			</p>
 			
 			
@@ -39,10 +39,12 @@
 				<p><input type="checkbox">Remember me</p>
 				<p><input type="submit" value="Log in" class="loginbutton"></p>
 			</div>
+			
+
 			<hr>
 			<div class="forminput extra">
 				<p>New student? <a href="#">Register here  </a><p>
-				<p>forgot password? <a href="#">get help here</a><p>
+				<p id="forgot">forgot password? <a href="#">get help here</a><p>
 			</div>
 			
 		</form>
