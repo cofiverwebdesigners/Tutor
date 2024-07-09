@@ -22,7 +22,7 @@
 		color:#3AC154;
 	}
 	 h1{
-		font-size:22px;
+		font-size:15px;
 	}
 	.in{
 		height:10vh;
@@ -30,13 +30,13 @@
 	.in input{
 		width:80%;
 		height:5vh;
-		font-size:25px;
+		font-size:15px;
 		border:none;
 		outline:none;
 		border-bottom:1px solid black;
 	}
 	.extra{
-		font-size:25px;
+		font-size:15px;
 		height:15vh;
 	}
 	.loginbutton{
@@ -50,7 +50,7 @@
 		font-weight:bold;
 	}
 	#forgot{
-		font-size:23px;
+		font-size:15px;
 	}
 	.maintarget{
 		font-size:1.5em;
