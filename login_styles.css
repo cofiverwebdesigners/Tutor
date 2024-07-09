@@ -1,0 +1,123 @@
+@media screen and (min-Width:992px){
+	body{
+		margin:0;
+		padding:0;
+	}
+	.logo{
+		width:50%;
+		height:15vh;
+	}
+	.logo img{
+		width:50%;
+		height:70vh;
+		margin-top:-20%;
+		float:left;
+		margin-left:-15%;
+	}
+	.Title{
+		width:30%;
+		position:absolute;
+		left:15%;
+		font-size:20px;
+	}
+	.main_heading{
+		display:flex;
+		margin-top:0.5%;
+	}
+	a{
+		text-decoration:none;
+	}
+
+	.format{
+		display:flex;
+		justify-items:space-between;
+		
+	}
+	.formholder{
+		position:relative;
+		left:12%;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		height:70vh;
+		width:80%;
+	}
+	form{
+		width:90%;
+		height:50vh;
+	}
+
+	.forminput {
+		width:50%;
+		margin-left:2%;
+		height:10vh;
+		font-size:18px;
+
+	}
+
+	.loginTitle{
+
+		font-size:20px;
+		font-weight:bold;
+		margin-left:2%;
+	}
+	.format{
+
+		margin-top:1%;
+	}
+	.in {
+		
+		width:90%;
+		height:8vh;
+		font-size:20px;
+	}
+
+	.in input {
+		width:50%;
+		height:7vh;
+		font-size:20px;
+		border:none;
+		outline:none;
+		border-bottom:1px solid black;
+	}
+	.extra{
+		margin-top:1%;
+		display:flex;
+		justify-content:space-between;
+		width:90%;
+	}
+
+	.showPassword{
+		cursor:pointer;
+	}
+	.loginbutton{
+		background:#3AC154;
+		border:none;
+		width:15vw;
+		height:7vh;
+		font-size:20px;
+		border-radius:44px;
+		cursor:pointer;
+		font-size:20px;
+		font-weight:bold;
+	}
+	.in input:focus{
+		border-bottom-color:green;
+	}
+
+	.in input:focus+i{
+		color:green;
+	}
+
+
+	.input_field input:focus{
+		border-bottom-color:green;
+	}
+
+	.input_field input:focus+i{
+		color:green;
+	}
+	span{
+		color:#3AC154;
+	}
+}
