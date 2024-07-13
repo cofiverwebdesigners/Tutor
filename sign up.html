@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <title>Tutor Turtle | Register</title>
+	 <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	 <link rel="icon" type="image/x-icon" href="favicon.png">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	 <link rel="stylesheet" href="signup_css.css">
+</head>
+	<header class="main_content">
+		<img src="logo.PNG" alt="TutorTurtle Logo">
+		<h1>Tutor <span>Turtle</span></h1>
+	</header>
+<body>
+	
+	<div class="SignUpFormHolder">
+		<h2>Welcome, Register for a Study <span>Account</span> Here</h2>
+		<form>
+			<div class="forminput">
+				<p>First Name</p>
+				<i class="fa fa-address-book-o" aria-hidden="true"></i>
+				<input type="text" name="firstname" id="firstname" required onblur="firstnamechecker()">
+				<i class="fa fa-check approval" aria-hidden="true" id="fname"></i>
+				<i class="fa fa-times approval" aria-hidden="true" id="fname2"></i>
+			</div>
+			<div class="forminput">
+				<p>Second Name</p>
+				<i class="fa fa-address-card-o" aria-hidden="true"></i>
+				<input type="text" name="secondname" id="secondname" onblur="secondnamechecker()" required>
+				<i class="fa fa-check approval" aria-hidden="true" id="sname"></i>
+				<i class="fa fa-times approval" aria-hidden="true" id="sname2"></i>
+			</div>
+			<div class="forminput">
+				<p>Email<p>
+				<i class="fa fa-envelope" aria-hidden="true"></i>
+				<input type="email" name="email" id="email" required onblur="emailchecker()">
+				<i class="fa fa-check approval" aria-hidden="true" id="ema"></i>
+				<i class="fa fa-times approval" aria-hidden="true" id="ema2"></i>
+			</div>
+			<div class="forminput">
+				<p>Phone Number<p>
+				<i class="fa fa-phone-square" aria-hidden="true"></i>
+				<input onblur="phonenumbervalidate() "type="number" name="phonenumber" id="phonumber" required>
+				<i class="fa fa-check approval" id="phone1" aria-hidden="true"></i>
+				<i class="fa fa-times approval" id="phone2" aria-hidden="true"></i>
+			</div>
+			
+			<div class="forminput">
+				<p>Alternative Phone Number<p>
+				<i class="fa fa-phone" aria-hidden="true"></i>
+				<input onblur="validatealternative()" type="number" name="Alp" id="Alp" required>
+				<i class="fa fa-check approval" id="alp1" aria-hidden="true"></i>
+				<i class="fa fa-times approval" id ="alp2" aria-hidden="true"></i>
+			</div>
+			
+			<div class="forminput special">
+				<p>Password<p>
+				<i class="fa fa-lock maintarget" aria-hidden="true"></i>
+				<input type="password" name="password" id="password" required>
+				<i onclick="seepassword()" id="eye" class="fa fa-eye showPassword" aria-hidden="true"></i>
+				<i class="fa fa-check approval" aria-hidden="true" id="confirm3"></i>
+				<i class="fa fa-times approval" aria-hidden="true" id="confirm4"></i>
+			</div>
+			
+			<div class="forminput special">
+				<p>Confirm Password<p>
+				<i class="fa fa-lock" aria-hidden="true"></i>
+				<input onblur="passwordconfirm()" type="password" name="confirmpassword" id="confirmpassword" required>
+				<i onclick="seeconfirmpassword()" id="eye" class="fa fa-eye showPassword" aria-hidden="true"></i>
+				<i class="fa fa-check approval" aria-hidden="true" id="confirm"></i>
+				<i class="fa fa-times approval" aria-hidden="true" id="confirm2"></i>
+			</div>
+			
+			<div class="passworderror" id="passworderror">
+				<p style="color:red;">Error! The passwords do not match!</p>
+			</div>
+			
+			<div class="formbuttons">
+				<button type="button" onclick="cancel()">Cancel</button>
+				<input type="submit" value="Register" required>
+			</div>
+			
+		</form>
+	</div>
+	
+<script type="text/JavaScript" src="sign up.js"></script>
+</body>
+</html>
