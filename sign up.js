@@ -138,5 +138,5 @@ function seeconfirmpassword(){
 }
 
 function cancel(){
-	location.href="login.html"
+	location.href="index.html"
 }
