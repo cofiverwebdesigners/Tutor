@@ -1,13 +1,14 @@
 @media screen and (max-Width:800px){
 	.main_content img{
-		max-width:35%;
+		max-width:25%;
+		height:auto;
 	}
 	.main_content h1{
 		margin-left:4%;
 	}
 	
 	.SignUpFormHolder h2{
-		font-size:20px;
+		font-size:17px;
 	}
 	
 	.formbuttons input,.formbuttons button{
